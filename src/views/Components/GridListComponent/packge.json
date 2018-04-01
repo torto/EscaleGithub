@@ -1,0 +1,6 @@
+{
+  "name": "GetRepositoriesReducer",
+  "description": "GetRepositoriesReducer",
+  "private": true,
+  "main": "./GetRepositoriesReducer.js"
+}

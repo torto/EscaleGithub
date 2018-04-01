@@ -1,0 +1,6 @@
+{
+  "name": "GridListComponent",
+  "description": "GridListComponent",
+  "private": true,
+  "main": "./GridListComponent.js"
+}

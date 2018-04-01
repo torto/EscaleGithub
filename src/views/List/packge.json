@@ -1,0 +1,6 @@
+{
+  "name": "List Component",
+  "description": "Main in list component",
+  "private": true,
+  "main": "./List.js"
+}
