@@ -1,5 +1,5 @@
 
-# Escale Test Github
+# Escale Test Github (GitHub Starred Repositories)
 This repository is a test to work in Escale.
 
 This app use:
