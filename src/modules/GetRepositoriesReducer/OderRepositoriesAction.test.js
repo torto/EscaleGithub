@@ -1,4 +1,3 @@
-import React from 'react'
 import { mock } from 'sinon'
 
 const { orderRepositories } = require('./OrderRepositoriesAction')
@@ -72,6 +71,17 @@ describe('orderRepositories Action', () => {
 				stargazers_count: 10,
 				open_issues_count: 11
 			}]
+		}
+		const dispatch = mock('dispatch').withArgs(returnValuesDispatch)
+		orderRepositories(orderRepo, data)(dispatch)
+		dispatch.verify()
+  })
+	it('execute order whiout values', () => {
+		const orderRepo = ''
+
+		const returnValuesDispatch = {
+      type: 'local/REPOSITORIES_ORDER',
+      order: data
 		}
 		const dispatch = mock('dispatch').withArgs(returnValuesDispatch)
 		orderRepositories(orderRepo, data)(dispatch)
